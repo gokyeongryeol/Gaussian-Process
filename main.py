@@ -3,7 +3,7 @@ import math
 import pandas as pd
 import numpy as np
 from utils import *
-from GP_model import * 
+from model import * 
 import matplotlib
 
 matplotlib.use('Agg')
@@ -46,4 +46,4 @@ def main(ktype):
             
 
 if __name__ == '__main__': 
-    main('LIN')
+    main('SE')
